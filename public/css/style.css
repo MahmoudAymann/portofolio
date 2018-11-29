@@ -36,7 +36,8 @@ font-family: 'Open Sans', sans-serif;
 /* typography
 ==================================================*/
 
-h1 {
+h1
+ {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     line-height: 70px;
@@ -51,6 +52,16 @@ h4 {
     margin-left: 40px;
     font-weight: 700;
 }
+
+ShortDescFont{
+    color: #000;
+    font-size: 17px;
+}
+Ebda3CoHeader{
+    color:#128a08;
+    font-size: 30px;
+}
+
 
 h4:before {
     position: absolute;
@@ -282,9 +293,9 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/home-bg-2.png);
+    background: url(../img/home-bg-2.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
 }
 
 .table-cell {
@@ -347,7 +358,6 @@ a.active {
     margin-top: 20px;
     font-size: 15px;
 }
-
 .experience-row .date {
     color: #000;
     font-size: 17px;
@@ -620,7 +630,9 @@ a.active {
 .animatedModal-on .close-popup-modal {
     opacity: 1;
 }
-
+.animatedModal2-on .close-popup-modal {
+    opacity: 1;
+}
 .modal-content h2 {
     font-family: 'Playfair Display', serif;
     font-size: 40px;

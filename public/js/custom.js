@@ -1,6 +1,7 @@
 // JavaScript Document
 
-$(window).load(function () {
+$(window).load(function ()
+{
     "use strict";
     // makes sure the whole site is loaded
     $('#status').fadeOut(); // will first fade out the loading animation
@@ -35,7 +36,8 @@ $(document).ready(function () {
         });
     });
 
-    nav.find('a').on('click', function () {
+    nav.find('a').on('click', function ()
+    {
         var $el = $(this),
             id = $el.attr('href');
 
@@ -80,13 +82,15 @@ $(document).ready(function () {
     });
 
     //  isotope
-    $('#projects').waitForImages(function () {
+    $('#projects').waitForImages(function ()
+    {
         var $container = $('.portfolio_container');
         $container.isotope({
             filter: '*',
         });
 
-        $('.portfolio_filter a').click(function () {
+        $('.portfolio_filter a').click(function ()
+         {
             $('.portfolio_filter .active').removeClass('active');
             $(this).addClass('active');
 
@@ -104,9 +108,11 @@ $(document).ready(function () {
     });
 
     //animatedModal
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+    $("#demo01,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+    $("#de  mo02").animatedModal2();
 
-    // Contact Form 	
+
+    // Contact Form
 
     // validate contact form
     $(function () {
